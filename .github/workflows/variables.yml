@@ -1,7 +1,9 @@
 name: Workflow Demo
 
-on: 
-  push
+on:
+  workflow_dispatch:
+    
+#  push
 
 env:
   ACCESS_ID: ${{ vars.ACCESS_ID }}
